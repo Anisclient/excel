@@ -24,6 +24,7 @@ export function resizeHandler($root, event) {
 			$resizer.css({bottom: -delta + 'px'})
 		}
 	}
+
 	document.onmouseup = () => {
 		document.onmousemove = null
 		document.onmouseup = null
